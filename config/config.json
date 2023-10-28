@@ -1,0 +1,38 @@
+{
+  "development": {
+    "username": "healthtrip_telegram_bot",
+    "password": "teBXxD9EVHW6x9NG5h5cPtjEok9cFj2z",
+    "database": "healthtrip_telegram_bot",
+    "host": "dpg-ckt29h8168ec73bv7n6g-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true
+      }
+    }
+  },
+  "test": {
+    "username": "healthtrip_telegram_bot",
+    "password": "teBXxD9EVHW6x9NG5h5cPtjEok9cFj2z",
+    "database": "healthtrip_telegram_bot",
+    "host": "dpg-ckt29h8168ec73bv7n6g-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true
+      }
+    }
+  },
+  "production": {
+    "username": "healthtrip_telegram_bot",
+    "password": "teBXxD9EVHW6x9NG5h5cPtjEok9cFj2z",
+    "database": "healthtrip_telegram_bot",
+    "host": "dpg-ckt29h8168ec73bv7n6g-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true
+      }
+    }
+  }
+}
