@@ -16,7 +16,7 @@ export class CronService {
 
   private async scheduleHelloMessages() {
     // Schedule a task to send "Hello" messages to users every 5 minutes
-    cron.schedule('0 8 * * *', async () => {
+    cron.schedule('*/10 * * * * *', async () => {
       try {
         const users = await User.findAll(); // Fetch all users from the database
 
